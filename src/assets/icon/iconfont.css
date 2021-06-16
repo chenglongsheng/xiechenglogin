@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2614262 */
+  src: url('iconfont.woff2?t=1623829543072') format('woff2'),
+       url('iconfont.woff?t=1623829543072') format('woff'),
+       url('iconfont.ttf?t=1623829543072') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wechat:before {
+  content: "\e600";
+}
+
+.icon-sina:before {
+  content: "\e669";
+}
+
+.icon-alipay:before {
+  content: "\e601";
+}
+
+.icon-QQ:before {
+  content: "\e667";
+}
+
+.icon-baidu:before {
+  content: "\e612";
+}
+
